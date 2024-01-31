@@ -15,7 +15,7 @@ intents.voice_states = True
 client = commands.InteractionBot(intents=intents)
 
 # Load and add the cogs
-initial_extensions = ['cogs.ping_cog', ]
+initial_extensions = ['cogs.ping_cog', 'cogs.ticket_cog',]
 
 for extension in initial_extensions:
     client.load_extension(extension)
