@@ -15,7 +15,6 @@ class BotConfig:
     TOKEN: str = os.getenv("TOKEN", "")
     
     # Configurações do bot
-    COMMAND_PREFIX: str = "!"
     DESCRIPTION: str = "Bot Base - Um bot Discord moderno e otimizado"
     
     # Intents necessários
